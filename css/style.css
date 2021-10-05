@@ -354,6 +354,7 @@ nav ul li a:hover{
     nav{
         justify-content: space-between;
         height: 65px;
+        width: 100%;
         padding: 0px 30px;
     }
     body {
