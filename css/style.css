@@ -356,10 +356,119 @@ nav ul li a:hover{
         height: 65px;
         padding: 0px 30px;
     }
+    body {
+        overflow-x: hidden;
+    }
     .logo img{
         height: 35px;
     }
     .menu{
         display: none;
+    }
+    .model_img {
+        position: absolute;
+        top: 420px;
+        height: 200%;
+        width: 200%;
+    }
+    .text {
+        position: relative;
+        left: -20px;
+    }
+    .text h1 {
+        font-size: 60px;
+    }
+    .text p {
+        text-align: center;
+    }
+    .profile-btn {
+        position: relative;
+        left: 35px;
+        margin-top: 20px;
+    }
+    #skills {
+        position: relative;
+        top: 330px;
+        text-align: center;
+        left: 15px;
+        width: 50%;
+    }
+    .s-box-icon {
+        position: absolute;
+        height: 200%;
+        width: 2000%;
+        left: -45px;
+    
+    }
+    .s-box-container {
+        position: relative;
+        left: 10px;
+        margin-top: 40px;
+    }
+    .skill-image {
+        position: absolute;
+        /* position: relative; */
+        top: 550px;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        left: -70px;
+    }
+    #certificate {
+        position: relative;
+        top: 500px;
+        left: 20px;
+        text-align: center;
+    }
+    #cards {
+        position: relative;
+        top: 550px;
+    }
+    .card1 {
+        position: absolute;
+        top: -20px;
+        margin: 0;
+        left: 5px;
+    }
+    .box2 {
+        position: absolute;
+        top: 400px;
+        margin: 0;
+        left: 5px;
+    }
+    .box3 {
+        position: absolute;
+        top: 780px;
+        margin: 0;
+        left: 5px;
+    }
+    #contact {
+        position: relative;
+        top: 1900px;
+        left: -50px;
+        height: 300px;
+        width: 300px;
+    }
+    #contact img {
+        position: absolute;
+        width: 350px;
+        top: -200px;
+        height: 300px;
+        left: 50px;
+    }
+    #contact h3 {
+        position: relative;
+        top: 130px;
+    }
+    .contact-input {
+        position: relative;
+        left: -40px;
+        top: 120px;
+        width: 330px;
+        margin-top: 30px;
+    }
+    .contact-logo {
+        position: relative;
+        top: 2000px;
     }
 }
