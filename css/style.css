@@ -355,6 +355,7 @@ nav ul li a:hover{
         justify-content: space-between;
         height: 65px;
         padding: 0px 30px;
+        width: 100%;
     }
     body {
         overflow-x: hidden;
