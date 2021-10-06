@@ -378,6 +378,7 @@ nav ul li a:hover{
     }
     .text h1 {
         font-size: 60px;
+        font-size: 55;
     }
     .text p {
         text-align: center;
@@ -460,6 +461,7 @@ nav ul li a:hover{
     #contact h3 {
         position: relative;
         top: 130px;
+        font-size: 38px;
     }
     .contact-input {
         position: relative;
