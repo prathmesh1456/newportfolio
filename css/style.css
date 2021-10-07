@@ -400,7 +400,7 @@ nav ul li a:hover{
         position: relative;
         left: -155px;
         font-size: 5vh;
-        width: 300%;
+        width: 100%;
         line-height: 1;
     }
     .text p {
