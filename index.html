@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Scheherazade+New&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -26,30 +27,38 @@
 
 <body>
     <div name="" id="main">
-        <nav>
-            <a href="#" class="logo">
-                <img src="" alt="">
-            </a>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certificate">Certificate</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+
+        <div class="overflow">
+            <nav class="nav_box">
+                <div class="logo">
+                    <img src="" alt="Portfolio Logo">
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="burger">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </label>
+                <ul class="nav_links">
+                    <li><a href="#" class="link-hover">Home</a></li>
+                    <li><a href="#" class="link-hover">Skills</a></li>
+                    <li><a href="#" class="link-hover">Certificates</a></li>
+                    <li><a href="#" class="link-hover">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <div class="content">
             <div class="model">
                 <img src="images/PicsArt_09-05-06.03.19.png" alt="ERROR" class="model_img">
             </div>
             <div class="text">
-                <h1>Hello!</a></h1>
-                <h1> I'm <span> Prathmesh</span></h1>
-                <h1 class="wb">I'm a Web Developer</h1>
+                <h1>Hello!</h1>
+                <h1>I'm Prathmesh</h1>
+                <h1>I'm a Web Developer</h1>
             </div>
         </div>
     </div>
 
-    <div id="about">
+    <div id="about" data-aos="fade-down">
         <div class="about-text"> 
             <div class="about-heading">
                 <h2>About Me</h2>
@@ -67,7 +76,7 @@
     </div>
 
     <div id="skills">
-        <div class="skills-text">
+        <div class="skills-text" data-aos="fade-right">
             <div class="skill-heading">
                 <span>My Skills</span>
                 <h2>My Experties</h2>
@@ -110,12 +119,12 @@
                 </div>
             </div>
         </div>
-        <div class="skill-image">
+        <div class="skill-image" data-aos="fade-left">
             <img src="images/html5-logo-31819.png" alt="">
         </div>
     </div>
 
-    <div id="certificate">
+    <div id="certificate" data-aos="fade-down">
         <div class="c-heading">
             <span>My Certificates</span>
             <h2>My Work</h2>
@@ -123,7 +132,7 @@
     </div>
 
     <div id="cards">
-        <div class="card1">
+        <div class="card1" data-aos="fade-right">
             <div class="box1">
                 <div class="rect1"> <a href="https://coursera.org/share/7629a6b73e08d5156d10e23e589f648d"><img
                             class="imgc3" src="images/3c.png" alt=""> </a>
@@ -136,7 +145,7 @@
             </div>
         </div>
 
-        <div class="box2">
+        <div class="box2" data-aos="fade-up">
             <div class="rect2"> <a
                     href="https://analytics.google.com/analytics/academy/certificate/K--i_TrjSLWQfI8OjPksUQ"><img
                         class="imgc2" src="images/Course_Certificate (1).jpeg" alt=""></a>
@@ -148,7 +157,7 @@
             </div>
         </div>
 
-        <div class="box3">
+        <div class="box3" data-aos="fade-left">
             <div class="rect3"> <a href="https://coursera.org/share/7ae5f91e9b58017e0b0150075e2425ce"><img class="imgc1"
                         src="images/1c.png" alt="ERROR"> </a>
                 <div class="box-heading">
@@ -160,7 +169,7 @@
         </div>
     </div>
     <br><br>
-    <div id="contact">
+    <div id="contact" data-aos="fade-down">
         <img src="images/images (5).png" alt="" class="contact_img">
         <h3>Get The Best Project Estimation.</h3>
 
@@ -169,7 +178,7 @@
             <a href="#">Continue</a>
         </div>
     </div>
-    <div class="contact-logo">
+    <div class="contact-logo" data-aos="fade-up">
         <div class="insta">
             <a href="https://instagram.com/prathmesh_1456?utm_medium=copy_link"><img
                     src="images/instagram-logo-png-2428.png" alt=""></a>
@@ -181,5 +190,9 @@
             <a href="https://www.linkedin.com/in/prathmesh-lodhi-661517204"><img src="images/174857.png" alt=""></a>
         </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
