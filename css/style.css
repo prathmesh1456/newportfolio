@@ -150,6 +150,9 @@ a{
         padding: 10px;
         z-index: 112;
     }
+    .text h1{
+        width:100%
+    }
 }
 
 .model img{
@@ -179,7 +182,7 @@ a{
     left: 20px;
 }
 .text h1{
-    font-size: 3vh;
+    font-size: 3.5rem;
     color: #1c3548;
     margin: 0px 0px 10px 0px;
     line-height: 60px;
