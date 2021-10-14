@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content= "width=device-width, user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+
     <title>MY | Portfolio</title>
     <!-- CSS Links -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,14 +19,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Scheherazade+New&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.6.5/tailwind.min.css">
 
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/f93f0258c2.js" crossorigin="anonymous"></script>
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.6.5/tailwind.min.css">
+
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/f93f0258c2.js" crossorigin="anonymous"></script>
 
     <!-- Font Awesome CDN  -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     
     <link rel="icon" href="images/favicon.ico">
+    
         
 </head>
 
@@ -34,10 +52,10 @@
                 <div class="logo">
                     <img src="images/Frame 1 (4).png" alt="Portfolio Logo">
                 </div>
-                <input type="checkbox" id="click">
+                <!-- <input type="checkbox" id="click">
                 <label for="click" class="burger">
                     <i class="fas fa-bars" aria-hidden="true"></i>
-                </label>
+                </label> -->
                 <ul class="nav_links">
                     <li><a href="#home" class="link-hover">Home</a></li>
                
@@ -46,6 +64,24 @@
                     <li><a href="#contact" class="link-hover">Contact</a></li>
                 </ul>
             </nav>
+            <header class="l-header">
+                <nav class="nav_2 bd-grid show">
+                    <div class="logo">
+                        <img src="images/Frame 1 (4).png" alt="Portfolio Logo">
+                    </div>
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                            <li class="nav__item"><a href="#certificate" class="nav__link">Certificates</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </nav>
+            </header>
         </div>
 
         <div class="content" id="home">
@@ -200,5 +236,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
