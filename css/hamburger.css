@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  /* width: calc(100% - 2rem); */
+  width: 100%;
+  /* margin-left: var(--mb-2); */
+  margin-right: var(--mb-2);
+}
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: var(--z-fixed);
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  z-index: 1;
+}
+
+.nav_2 {
+  height: var(--header-height);
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: var(--font-semi);
+  cursor: pointer;
+  box-shadow: 0 5px 5px 0 rgba(51, 49, 49, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav_box {
+    display: none;
+  }
+  .l-header {
+    display: block;
+  }
+  .nav__menu {
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    top: 12%;
+    height: 70%;
+    padding: 2rem;
+    background-color: rgba(245, 245, 245, 1);
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(51, 49, 49, 0.2);
+  }
+}
+.nav__item {
+  margin-bottom: var(--mb-4);
+}
+.nav__link {
+  position: relative;
+  color: #282828;
+  left: 40px;
+  top: 5%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 2.2;
+}
+.nav__link:hover {
+  position: relative;
+  background: #3f6dec;
+  color: white;
+}
+.nav__list li:hover {
+  position: relative;
+  background: #3f6dec;
+  color: white;
+  width: 110%;
+  border-radius: 10px;
+}
+.nav__link:hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.nav__logo {
+  color: var(--second-color);
+}
+.nav__toggle {
+  color: var(--second-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.show {
+  right: 0;
+}
