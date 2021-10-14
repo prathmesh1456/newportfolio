@@ -376,7 +376,7 @@ a{
     border-radius: 20px;
     font-weight: 500;
 }
-.contact-input a:hover{
+.contact-input button:hover{
     background-color: #179e5b;
     transition: all ease 0.2s;
 }
